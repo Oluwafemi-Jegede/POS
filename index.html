@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="background-color:white;">
+	<div class="header">
+		<!-- <header> -->
+		<h1 style="text-align:center;">My POS Software</h1>
+		<p style="text-align:center;">This app is a test app that helps make a sale in shop</p>
+		<!-- </header> -->
+	</div>
+	<div class="appPage">
+	</div>
+
+	<div class="tableSummary">
+		<table style="width:100%">
+			<thead>
+				<tr>
+					<th>Item</th>
+					<th>Unit Price</th>
+					<th>Quantity</th>
+					<th>Total Value</th>
+				</tr>
+			</thead>
+		</table>
+		<p><b class="purchaseTotal"></b></p>
+		<button class="checkout">Checkout</button>
+  </div>
+
+  <div class="payment">
+    <label for="amount">Enter Customer's Amount:</label>
+    <input class='amount' placeholder='Enter customer amount' type='number' />
+    <button class="pay">Pay</button>
+  </div>
+  
+  <div class="farewell">
+    <p>Thank you for shopping with us</p>
+  </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script.js"></script>
+  </body>
+</html>

@@ -6,7 +6,7 @@ The goal of this project is to write a simple web application that can help smal
 
 ## Deployment
 
-* Web - hosting on repl.it
+* Web - hosting on [repl.it](https://pos.jegedeoluwafemi.repl.co/)
 
 
 ## Features

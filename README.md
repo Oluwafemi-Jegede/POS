@@ -8,7 +8,6 @@ The goal of this project is to write a simple web application that can help smal
 
 * Web - hosting on [repl.it](https://pos.jegedeoluwafemi.repl.co/)
 
-
 ## Features
 
 * Visual representation of products

@@ -1,14 +1,16 @@
 
 .header {
 width: 100%; 
+border-bottom: 5px black solid;
+margin-bottom: 10px;
 }
 
 .appPage {
   display:grid;
   width: 100%; 
-  grid-template-columns: repeat(3, minmax(6rem, 1fr));
+  grid-template-columns: repeat(4, minmax(5rem, 1fr));
   grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 1.5rem;
+  grid-gap: 1rem;
 }
 
 .card {
@@ -18,8 +20,7 @@ width: 100%;
   margin: auto;
   text-align: center;
   background-color: #f9f9f9;
-  border-radius: .5rem;
-  margin-bottom: 1rem;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 
@@ -28,22 +29,15 @@ width: 100%;
 }
 
 .card-image {
-  height: 250px;
+  height: 150px;
   border-radius: 4px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.card-image-list {
-  height: 150px;
-  border-radius: 4px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.card-name {
+  margin: 4px 0;
+  font-weight: bold;
 }
 
 .no-shadow:hover {
@@ -52,9 +46,18 @@ width: 100%;
 
 .card-unit-price {
   margin-top: 0;
+  margin-bottom: 4px;
 }
 
 table, th, td {
   border: 1px solid black;
   text-align: center;
+}
+
+.farewell{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
 }
